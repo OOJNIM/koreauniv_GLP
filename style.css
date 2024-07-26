@@ -1,4 +1,4 @@
-/** <uniquifier>: Use a unique and descriptive class name
+/**
 <weight>: Use a value from 100 to 900 **/
 
 * {
@@ -18,24 +18,21 @@
     height:100vh;
 }
 
-.windowSeat {
-    position: relative;
-  }
+
   
 .window {
     position: relative;
     width:150px;
     height: 200px;
-    background-color: #90e0ef;
+    background-color: #0bb0cd;
     border: 10px solid #e9ecef;
     border-radius: 70px;
     overflow: hidden;
     box-shadow: inset 5px 5px 25px rgba(0,0,0,0.3);
-
   }
   
 .clouds {
-    position: absolute;
+    position: absolute; /** 부모요소를 기준으로 **/ 
     top:100px;
     background-color: #caf0f8;
     border-radius:50%;
